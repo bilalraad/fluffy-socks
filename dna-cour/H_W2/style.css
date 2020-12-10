@@ -1,7 +1,7 @@
 
 h1 {
     font-size: 6vw;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .navBar {
@@ -61,14 +61,16 @@ button {
   border-radius: 0;;
 }
 main {
-  margin: 10%;
+  margin: 0 10% 0 10%;
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
+  height: 100%;
   color: white;
   background-image: url(black.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  
 }
