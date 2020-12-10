@@ -7,9 +7,13 @@
     <title>Bilal Raad</title>
 
     <style>
+        .hello {
+            color: blue;
+        }
+
         body {
             text-align: center;
-            width: 350px;
+            width: 50%;
             margin-left: auto;
             margin-right: auto;
         }
@@ -18,21 +22,24 @@
 </head>
 
 <body>
-    <img src="profile_img.jpg" alt="profilepic" style="width:300px;height:300px; border-radius: 50%">
+
+
+    <img src="profile_img.jpg" alt="profilepic" style="width:50%;height:50%; border-radius: 50%">
     <section id="title">
         <h1>Hi I'm Bilal Raad</h1>
     </section>
 
-    <section id="introduction">
+    <section id="introduction" class="hello">
         <h3>I'm 20 years old. Also I'm currently a 3rd stage student at Al-Nahrain University.</h3>
         <p>I love programming and learning new things related to it. I'm also an Anime fanboy.</p>
         <p>Did I mention that I'm a cat enthusiast!</p>
+
     </section>
 
     <section id="contact">
         <p style="margin: 0; display: inline-block;">
             <b>Contact me at: </b>
-            <i id="myEmail">bilal52040@gmail.com</i>
+            <i id="myEmail"><a href="mailto:bilal52040@gmail.com" target="_blank">bilal52040@gmail.com</a></i>
         </p>
 
         <p style="margin: 0; display: inline-block;">
@@ -41,6 +48,7 @@
             <b>or</b>
             <a href="https://t.me/bilal_rad" target="_blank">Telegram</a>
         </p>
+
     </section>
 
 </body>

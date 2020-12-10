@@ -1,0 +1,74 @@
+
+h1 {
+    font-size: 6vw;
+    margin-top: 20%;
+}
+
+.navBar {
+  display: block;
+  text-align: right;
+  padding: 25px;
+  opacity: 0.4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(66, 66, 66);
+}
+
+.navItem {
+  padding: 2%;
+  color: white;
+}
+.navItem:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+/* "PetCare" Styling */
+#websiteName {
+  padding: 20%;
+  position: fixed;
+  padding: 0;
+  left: 2%;
+  top: 3%;
+  width: 5%;
+  height: 5%;
+  font-weight: bold;
+  font-size: large;
+}
+
+.gridItem{
+    width: 30%;
+    height: 20vw;
+    transition: 0.3s;
+    border-radius: 1.5%;
+}
+.gridItem:hover{
+    border: 1px solid white;
+    width: 33%;
+    height: 21vw;
+}
+button {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5% 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 0;;
+}
+main {
+  margin: 10%;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  color: white;
+  background-image: url(black.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
