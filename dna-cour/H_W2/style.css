@@ -1,9 +1,3 @@
-
-h1 {
-    font-size: 6vw;
-    margin-top: 10%;
-}
-
 .navBar {
   display: block;
   text-align: right;
@@ -23,6 +17,11 @@ h1 {
 .navItem:hover {
   color: yellow;
   cursor: pointer;
+}
+
+
+h1 {
+    font-size: 6vw;
 }
 
 /* "PetCare" Styling */
