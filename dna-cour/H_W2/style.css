@@ -1,3 +1,10 @@
+* {
+  /* apply this to every element (universal selector)*/
+  box-sizing: border-box;
+  /* box sizing is to make sure that 
+  the element take the width an height not just the content */
+}
+
 .navBar {
   display: block;
   text-align: right;
@@ -19,9 +26,8 @@
   cursor: pointer;
 }
 
-
 h1 {
-    font-size: 6vw;
+  font-size: 6vw;
 }
 
 /* "PetCare" Styling */
@@ -37,16 +43,16 @@ h1 {
   font-size: large;
 }
 
-.gridItem{
-    width: 30%;
-    height: 20vw;
-    transition: 0.3s;
-    border-radius: 1.5%;
+.gridItem {
+  width: 30%;
+  height: 20vw;
+  transition: 0.3s;
+  border-radius: 1.5%;
 }
-.gridItem:hover{
-    border: 1px solid white;
-    width: 33%;
-    height: 21vw;
+.gridItem:hover {
+  border: 1px solid white;
+  width: 33%;
+  height: 21vw;
 }
 button {
   border: none;
@@ -57,7 +63,7 @@ button {
   margin: 5% 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 0;;
+  border-radius: 0;
 }
 main {
   margin: 0 10% 0 10%;
@@ -71,5 +77,4 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  
 }

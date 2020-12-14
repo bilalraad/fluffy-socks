@@ -24,23 +24,24 @@ which will wrap around the image, which
   }
 }
 
+
+#hoverText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
 .HoverWrapper:hover #kittenImg {
   animation-name: glowingLoop;
   animation-duration: 1s;
   /* transition: 2s; */
   animation-iteration-count: infinite;
   display: block;
-}
 
- #hoverText {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  text-align: center;
 }
-
 .HoverWrapper #kittenImg {
   animation-name: glowingLoop;
   animation-duration: 1s;
@@ -48,6 +49,7 @@ which will wrap around the image, which
   animation-iteration-count: infinite;
   animation-direction: alternate ;
   display: none;
+
 }
 
 .HoverWrapper #imgContainer {
