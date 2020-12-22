@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+#my-form > h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #d35d6e;
+}
+
+
+header {
+  background: #efb08c;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  overflow: auto;
+  padding: 3rem 2rem;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 40%;
+  }
+}
+
+#my-form {
+  padding: 2rem;
+  background: #efb08c;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#my-form label {
+  display: block;
+}
+
+#my-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: black;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  background: #5aa469;
+  /* color: #fff; */
+  border-radius: 5px;
+  margin: 5px 0;
+  /* color: white; */
+}
+
+.btn:hover {
+  background: #4d8a59;
+}
+.error {
+  background: orangered;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+
+}
+
+#resultContainer{
+   width: 200px; 
+  /* height: 40px;   */
+  background-color: #f8d49d;
+  border-radius: 5px;
+
+}

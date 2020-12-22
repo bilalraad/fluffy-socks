@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>H.W5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>H.W. 5.1</h1>
+    </header>
+    <section class="container">
+      <form id="my-form">
+        <h1>Welcome Dear</h1>
+        <div class="msg"></div>
+        <div>
+          <label for="studentName">Student Name:</label>
+          <input type="text" id="studentName" placeholder="Enter your name" />
+          <label for="uniCol">University/Colleage:</label>
+          <input type="text" id="uniCol" placeholder="University name" />
+          <label for="engScore">English Score:</label>
+          <input type="number" id="engScore" placeholder="English Score" />
+          <label for="phyScore">Physics Score:</label>
+          <input type="number" id="phyScore" placeholder="Physics Score" />
+          <label for="geoScore">Geography Score:</label>
+          <input type="number" id="geoScore" placeholder="Geography Score" />
+        </div>
+        <input class="btn" onclick="onClick()" type="button" value="Calculate Avarage" />
+        <center>
+          <div id="resultContainer">
+          
+        </div>
+        </center>
+      </form>
+      <!-- <ul id="numbersList"></ul> -->
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
